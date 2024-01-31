@@ -11,10 +11,10 @@ public class Constancia {
      
      Evidencias = Integer.parseInt(JOptionPane.showInputDialog("Digita la cantidad de evidencias que tienes: "));
      
-     if(Evidencias >13)
+     if(Evidencias >=13)
      {
       Practicas =Integer.parseInt(JOptionPane.showInputDialog("Digita la cantidad de  practicas"));
-      if(Practicas>40)
+      if(Practicas>=40)
       {
           JOptionPane.showMessageDialog(null, "FELISIDADES obtienes tu cosntancia del mes de Enero");
       }
